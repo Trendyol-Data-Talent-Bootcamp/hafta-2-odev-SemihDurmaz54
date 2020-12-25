@@ -6,8 +6,4 @@ where year >=1980
 group by country  
 order by count(1) desc)
 where row in (1,3,5)
-
-
 ```
-
-n  n
