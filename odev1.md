@@ -1,3 +1,5 @@
+# Soru 1
+
 ```SQL
 select * from (
 select country,count(1) as medal, row_number() over(order by count(1) desc) as row 
